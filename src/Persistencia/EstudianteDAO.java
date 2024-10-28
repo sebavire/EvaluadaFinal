@@ -11,8 +11,8 @@ public class EstudianteDAO {
     private String contraseña;
 
     public EstudianteDAO() {
-        url = "jdbc:mysql://localhost:3306/escuela";
-        //url = "jdbc:mysql://192.168.0.99:3306/escuela";
+        //url = "jdbc:mysql://localhost:3306/escuela";
+        url = "jdbc:mysql://192.168.0.99:3306/escuela";
         usuario = "admin";
         contraseña = "admin";
     }
